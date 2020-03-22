@@ -12,7 +12,7 @@ if tah_cloveka == tah_pocitace:
     print("Plichta!")
 elif (tah_cloveka == "nůžky" and tah_pocitace == "kámen") or (tah_cloveka == "papír" and tah_pocitace == "nůžky") or (tah_cloveka == "kámen" and tah_pocitace == "papír"):
     print("Počítač vyhrál!")
-elif tah_cloveka == "nůžky" and tah_pocitace == "papír" (tah_cloveka == "papír" and tah_pocitace == "kámen") or (tah_cloveka == "kámen" and tah_pocitace == "nůžky"):
+elif (tah_cloveka == "nůžky" and tah_pocitace == "papír") or (tah_cloveka == "papír" and tah_pocitace == "kámen") or (tah_cloveka == "kámen" and tah_pocitace == "nůžky"):
     print("Vyhrála jsi!")
 else:
     print("Špatně.")
